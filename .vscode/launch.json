@@ -1,0 +1,15 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"name": "TOTVS Language Debug",
+			"program": "${command:AskForProgramName}",
+			"cwb": "${workspaceFolder}",
+			"smartclientBin": "C:\\PROTHEUS12\\Protheus_R33\\Protheus\\bin_NOVO\\smartclient_harpia\\smartclient.exe",
+			"isMultiSession": true,
+			"enableTableSync": true
+		}
+	]
+}
